@@ -1,0 +1,28 @@
+---
+title: "instructions"
+output: html_document
+---
+
+
+## Welcome to the Meta Yourself Tool!
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+This Shiny application makes performing exploratory bias detection meta-analyses easy and fun. 
+
+Now you can do them yourself in just a few clicks!!    
+
+
+&nbsp;
+&nbsp;
+
+
+Bias detection is a meta-analytic procedure which aims to assess the reliability of a certain batch of literature. This   
+can be a meta-analytic dataset, work done by a specific scientist, or even a whole Journal. In this app, you can   
+perform this procedure yourself and all you have to do is choose a keyword.  
+
+Think about which scientific topic you want to assess. Choose a keyword that is associated with it and proceed to the   
+second page.
+
