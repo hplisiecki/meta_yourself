@@ -1,0 +1,19 @@
+---
+title: "set_up"
+output: html_document
+---
+&nbsp;
+&nbsp;
+
+Above you can type your keyword, or settle for the one that we have picked for you. Using the slider, you can set   
+the limit on the maximum ammount of articles that will be downloaded to perform the bias detection. Setting the   
+limit low will help the app run faster, however it will also limit the precision of bias detection. The articles    
+collected by the app come from the PLOS library.  
+
+
+Below you will be able to see the titles of the articles downloaded by the app, together with their first authors.   
+Keep in mind that only those that obtain relevant statistics will be used in the meta-analysis. You can change the     
+keyword if the list of articles does not satisfy your needs. Once you have settled on the right one, proceed to   
+the last page to see the results.    
+
+Please stand by...    

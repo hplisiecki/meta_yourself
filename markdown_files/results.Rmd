@@ -1,0 +1,28 @@
+---
+title: "results"
+output: html_document
+---
+&nbsp;
+&nbsp;
+
+
+Above you can see the z-curve plot. It is the output of one of bias detection techniques - a histogram of significance  
+values converted to z-scores. In the presence of true effect, these values would form a normal distribution on the  
+right-hand side of the red line, which signifies the significance cut-off of 0.05.     
+
+If above went over your head, no reason to worry.  
+
+What is most important here is the Expected Replicability Rate on the lower right-hand side of the plot.This value   
+approximates how many of the recovered studies would be replicated if all of them were repeated.    
+
+A finding that cannot be replicated is not scientifically accurate and so, the higher the replicability rate,   
+the more reliable the area of studies, indicated by your keyword.  
+
+(In some cases the plot will fail to load if the articles selected by your keyword do not rely on frequentist 
+statistical tests) 
+
+If you want to learn more about the z-curve technique proceed to U. Schimmack's (author of z-curve) blog   
+where he explains it in detail:  
+
+https://replicationindex.com/category/z-curve/  
+
