@@ -12,7 +12,7 @@ collected by the app come from the PLOS library.
 
 
 Below you will be able to see the titles of the articles downloaded by the app, together with their first authors.   
-Keep in mind that only those that obtain relevant statistics will be used in the meta-analysis. You can change the     
+Keep in mind that only those that include relevant statistics will be used in the meta-analysis. You can change the     
 keyword if the list of articles does not satisfy your needs. Once you have settled on the right one, proceed to   
 the last page to see the results.    
 
