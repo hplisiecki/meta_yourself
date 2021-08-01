@@ -22,21 +22,6 @@ library(roadoi)
 library(pdftools)
 library(stringr)
 
-convertpdf2txt <- function(dirpath){
-    files <- list.files(dirpath, full.names = T)
-    x <- sapply(files, function(x){
-        x <- pdftools::pdf_text(x) %>%
-            paste(sep = " ") %>%
-            stringr::str_replace_all(fixed("\n"), " ") %>%
-            stringr::str_replace_all(fixed("\r"), " ") %>%
-            stringr::str_replace_all(fixed("\t"), " ") %>%
-            stringr::str_replace_all(fixed("\""), " ") %>%
-            paste(sep = " ", collapse = " ") %>%
-            stringr::str_squish() %>%
-            stringr::str_replace_all("- ", "")
-        return(x)
-    })
-}
 
 ui <- navbarPage("Meta Yourself",   # title
 
