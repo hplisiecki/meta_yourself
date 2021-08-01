@@ -118,8 +118,12 @@ server <- function(input, output) {
                                       email = "najko.jahn@gmail.com")
 
         for (i in 1:len){
+            skip_to_next = FALSE
             url = unlist(library[2]$best_oa_location[i])[2]
-            download.file(url, sprintf('uploads/article_%s.pdf',i), mode="wb")
+            tryCatch(download.file(url, sprintf('uploads/article_%s.pdf',i), mode="wb"), error = function(e) { skip_to_next <<- TRUE})
+
+            if(skip_to_next) { next }
+
         }
         txt = ''
         for (pdf_path in (list.files("uploads/", full.names = TRUE))){
@@ -175,3 +179,4 @@ server <- function(input, output) {
 
 # Run the application
 shinyApp(ui = ui, server = server)
+
