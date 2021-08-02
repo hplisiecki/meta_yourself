@@ -10,3 +10,5 @@ All you need to do is:
 4. Have fun while doing it
 
 The link to the app: https://hubertplisiecki.shinyapps.io/meta_yourself/
+
+Reach out to me at hplisiecki@gmail.com
